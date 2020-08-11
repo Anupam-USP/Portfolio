@@ -1,0 +1,244 @@
+@charset "utf-8";
+
+/*Global/Desktop view*/
+header {
+    background-color: rgba(84,81,74,1.00);
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+}
+.div-container {
+    max-width: 1204px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+nav {
+    float: right;
+}
+.mobile-view {
+    display: none;
+    padding-top: 5px;
+}
+ul li {
+    list-style-type: hebrew;
+    display: inline-block;
+}
+.btn-red {
+    background-color: #f09116;
+    border-radius: 5px;
+    list-style-position: inside;
+}
+
+.btn-green {
+    background-color: #4bd18e;
+    border-radius: 5px;
+    margin-right: -7px;
+    padding-left: 0px;
+}
+.desktop-view ul li a {
+    padding-left: 43px;
+    padding-right: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    top: 0px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 0px;
+}
+body {
+    font-style: normal;
+    font-weight: 400;
+    font-family: pontano-sans;
+    background-color: #C6EDD8;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.desktop-view {
+    margin-top: -5px;
+}
+.hero-img {
+    height: 650px;
+    background-image: url(images/hero-image.jpg);
+    -webkit-box-shadow: 0px 0px 189px;
+    box-shadow: 0px 0px 189px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0%;
+    padding-top: 10px;
+    margin-top: 0px;
+}
+main {
+    min-height: 800px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.social-icons a img {
+    margin-left: 30px;
+}
+
+footer {
+    height: 87px;
+    margin-top: 33px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.social-icons {
+    float: left;
+    margin-top: 14px;
+}
+.copyright {
+    float: right;
+    margin-top: 14px;
+
+}
+.hero-content {
+    margin-top: 83px;
+    margin-left: 100px;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.available {
+    color: rgba(240,213,30,1.00);
+    font-size: large;
+    margin-top: 8px;
+    margin-left: 12px;
+}
+.clearfloat {
+    clear: both;
+    color: #FFFFFF;
+    font-size: 60px;
+}
+h1 {
+    font-family: averia-serif-libre;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 64px;
+}
+hr {
+    border: 1.5px solid #FFFFFF;
+    margin-top: -20px;
+    padding-top: 0px;
+}
+.hero-content div .btn-red {
+    padding-top: 13px;
+    padding-right: 43px;
+    padding-bottom: 13px;
+    padding-left: 43px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: right;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Tablet view*/
+@media (min-width: 401px) and (max-width: 768px){
+.mobile-view {
+    display: inline-block;
+    padding-top: 0px;
+    float: right;
+    margin-top: 8px;
+    text-align: right;
+}
+.desktop-view ul li {
+    display: block;
+    margin-top: 22px;
+    padding-top: 0px;
+    margin-left: -23px;
+    margin-right: -2px;
+    margin-bottom: -1px;
+    text-align: right;
+}
+
+.desktop-view {
+    display: none;
+    margin-top: -12px;
+    text-align: right;
+}
+.expand {
+    display: inline-block;
+    margin-top: 3px;
+}
+}
+
+/*Mobile view*/
+@media (max-width: 400px){
+header {
+    background-color: rgba(84,81,74,1.00);
+}
+.mobile-view {
+    display: block;
+    margin-top: -42px;
+    margin-left: 317px;
+    text-align: right;
+}
+.desktop-view {
+    display: none;
+    float: right;
+    text-align: right;
+}
+.expand {
+    display: block;
+}
+.desktop-view ul li {
+    display: block;
+    margin-top: 22px;
+    padding-top: 0px;
+    margin-left: -23px;
+    margin-right: -2px;
+    margin-bottom: -1px;
+    float: right;
+    text-align: right;
+}
+.hero-img {
+    height: 530px;
+    background-image: url(images/hero-image.jpg);
+    -webkit-box-shadow: 0px 0px 189px;
+    box-shadow: 0px 0px 189px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0%;
+}
+
+
+}
