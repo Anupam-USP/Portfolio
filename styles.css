@@ -30,8 +30,8 @@ nav {
 }
 .widecard{
     border: 0 solid #9a9b9c;
-    display: flex;
-    margin-top: 28px;
+    display: block;
+    margin-top: 40px;
     margin-right: 0;
     margin-left: 110px;
     margin-bottom: 10px;
@@ -211,8 +211,8 @@ hr {
     font-weight: 500;
     font-size: 22px;
     line-height: 14px;
-    padding-left: 0px;
-
+    padding-left: 11px;
+    margin-left: 6px;
 }
 .coollink::after{
 	content: "";
@@ -360,7 +360,7 @@ header {
 .col-md {
 }
 .mypic {
-    margin-left: 399px;
+    margin-left: 443px;
     margin-top: 81px;
     border-radius: 183px;
     margin-bottom: 45px;
