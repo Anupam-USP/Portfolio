@@ -8,6 +8,9 @@ header {
     padding-bottom: 10px;
     padding-right: 18px;
 }
+header a img {
+}
+
 .div-container {
     max-width: 1204px;
     margin-left: auto;
@@ -136,6 +139,7 @@ hr {
     border: 1.5px solid #FFFFFF;
     margin-top: -20px;
     padding-top: 0px;
+    margin-bottom: 26px;
 }
 .hero-content div .btn-red {
     padding-top: 13px;
@@ -144,30 +148,41 @@ hr {
     padding-left: 43px;
     margin-top: 0px;
     margin-bottom: 0px;
-    float: right;
     text-decoration: none;
     color: #FFFFFF;
     border-radius: 30px;
+    font-weight: 500;
+    font-size: medium;
+    float: left;
+    background-color: #f09116;
+    list-style-position: inside;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.image-grid {
+    padding-top: 0px;
+    margin-top: 257px;
+    margin-left: -43px;
+    margin-bottom: 58px;
+    clear: both;
+    display: block;
+}
+.col {
+    background-color: #78282A;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 3%;
+}
+.col-lg {
+    width: 31.3%;
+}
+.responisve-image {
+    width: 100%;
+    display: block;
+}
+.image-grid:after {
+    display: block;
+    content: "";
+    clear: both;
+}
 
 
 
@@ -199,6 +214,32 @@ hr {
     display: inline-block;
     margin-top: 3px;
 }
+.hero-content {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 38px;
+}
+.hero-content div .clearfloat {
+    font-size: 49px;
+    line-height: 51px;
+    text-align: left;
+}
+.col-md {
+    width: 48%;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+.image-grid {
+    margin-top: 316px;
+    margin-left: 8px;
+}
+
+
+
+
+
 }
 
 /*Mobile view*/
@@ -239,6 +280,37 @@ header {
     background-size: cover;
     background-position: center 0%;
 }
+.hero-content {
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+}
+.hero-content div .clearfloat {
+    font-size: 30px;
+    text-align: center;
+    line-height: 43px;
+    text-decoration: none;
+}
+.hero-content div .btn-red {
+    margin-left: 127px;
+    padding-top: 5px;
+    padding-left: 18px;
+    padding-bottom: 5px;
+    padding-right: 18px;
+}
+
+.hero-content hr {
+    border-style: none;
+}
+.col-xs {
+    width: 98%;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
 
 
+}
+.col-md {
 }
