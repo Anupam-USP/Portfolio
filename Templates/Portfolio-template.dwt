@@ -23,7 +23,7 @@
       <nav>
         <div class="desktop-view">
           <ul>
-            <li><a href="#" class="btn-red">About me</a></li>
+            <li><a href="../Anupam-about.html" class="btn-red">About me</a></li>
             <li><a href="#" class="btn-green">Contact me</a></li>
           </ul>
         </div>
